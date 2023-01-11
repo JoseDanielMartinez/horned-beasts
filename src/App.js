@@ -2,6 +2,7 @@
 import React from 'react';
 import Header from './Header';
 import Main from './Main';
+import Footer from './Footer';
 
 
 
@@ -13,7 +14,8 @@ class App extends React.Component{
     return (
       <>
       <Header/>
-      <Main/>      
+      <Main/> 
+      <Footer/>     
       </>
 
     )
